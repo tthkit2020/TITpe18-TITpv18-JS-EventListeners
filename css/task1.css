@@ -14,3 +14,10 @@
     font-size: 3rem;
     text-transform: uppercase;
 }
+
+.buttons-box ul {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    list-style: none;
+}
